@@ -80,6 +80,8 @@ blocks:
 
   - name: Deploy
     task:
+      secrets:
+        - name: now
       env_vars:
         - name: NODE_ENV
           value: test
@@ -93,8 +95,6 @@ blocks:
           - npm --version
       jobs:
         - name: Deploy Zeit Now
-          secrets:
-            - name: now
           commands:
             - npm install now -g
             - now --token $ZEIT_TOKEN
