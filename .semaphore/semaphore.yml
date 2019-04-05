@@ -97,4 +97,4 @@ blocks:
         - name: Deploy Zeit Now
           commands:
             - npm install now -g
-            - now --token $ZEIT_TOKEN
+            - now --token $ZEIT_TOKEN --local-config now.json
