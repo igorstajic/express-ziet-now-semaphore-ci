@@ -59,7 +59,7 @@ blocks:
             # further blocks:
             - cache store client-node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum package-lock.json) node_modules
 
-  - name: Tests
+  - name: Run tests
     task:
       env_vars:
         - name: NODE_ENV
