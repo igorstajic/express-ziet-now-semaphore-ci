@@ -1,0 +1,23 @@
+{
+  "name": "express-ziet-now-semaphore-ci",
+  "version": "1.0.0",
+  "description": "Express Started Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stajics/express-ziet-now-semaphore-ci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stajics/express-ziet-now-semaphore-ci/issues"
+  },
+  "homepage": "https://github.com/stajics/express-ziet-now-semaphore-ci#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "helmet": "^3.16.0"
+  }
+}
