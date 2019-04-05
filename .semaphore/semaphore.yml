@@ -94,5 +94,5 @@ blocks:
       jobs:
         - name: Install now
           commands:
-            - npm install now
+            - npm install now -g
             - now --token ${ZEIT_TOKEN}
