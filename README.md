@@ -39,7 +39,7 @@ $ npm install
 $ npm start
 ```
 
-## Test
+### Test
 
 ```bash
 $ npm test
