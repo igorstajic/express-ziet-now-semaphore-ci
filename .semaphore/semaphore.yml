@@ -94,7 +94,7 @@ blocks:
       jobs:
         - name: Deploy Zeit Now
           secrets:
-          - name: now
+            - name: now
           commands:
             - npm install now -g
             - now --token $ZEIT_TOKEN
